@@ -20,8 +20,7 @@ public class Program {
             case 8: result = "Eight"; break;
             case 9: result = "Nine"; break;
             case 10: result ="Ten"; break;
-            default: result = "Undefined"; break;
-            
+            default: Console.WriteLine("That number is not in range."); System.Environment.Exit(0); break;
         }
 
         Console.WriteLine("Your number is " + result);
